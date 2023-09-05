@@ -1,0 +1,56 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5%;
+    clear: both;
+    background-color: #92BDA3;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #3B4D2D;
+}
+
+.navbar a {
+    float: left;
+    color: #A5CC6B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+    color: #382633;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3B4D2D;
+    text-align: center;
+}
+
+footer a {
+    color: #A5CC6B;
+    text-decoration: none;
+}
+
+.signature {
+    color: #A5CC6B;
+}
+
+.indent {
+    margin-left: 25px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.introduction img {
+    width: 20%;
+}
