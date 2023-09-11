@@ -54,3 +54,56 @@ footer a {
 .introduction img {
     width: 20%;
 }
+
+.simpletable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.simpletable td, th {
+    border: 1px solid;
+}
+
+.complextable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.complextable td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+.complextable tr:nth-child(even) {
+    background-color: #7b9e89;
+}
+
+.complextable tr:first-child {
+    background-color: #5f7a6a;
+}
+
+form {
+    background-color: #a6db7d;
+}
+
+form input[type=text], input[type=email], input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset] {
+    width: 100%;
+    background-color: #FFFF;
+    color: gray;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
