@@ -4,18 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="styles/default.css"/>
-        <title>Abhinav Koukuntla's Contract</title>
+        <script src="scripts/defaultscripts.js"></script>
+        <title>Abhinav Koukuntla's Angry Kangaroo</title>
     </head>
     <body>
         <header>
             <div class="navbar">
-                <a href="index.html">Home</a>
+                <a href="#">Home</a>
                 <a href="introduction.html">Introduction</a>
-                <a href="#">Contract</a>
+                <a href="contract.html">Contract</a>
                 <a href="tables.html">Tables</a>
                 <a href="forms.html">Forms</a>
                 <a href="website_evaluations.html">Website Evaluations</a>
-                <a href="firstscripts.html">First Scripts</a>
+                <a href="#">First Scripts</a>
                 <a href="https://webpages.charlotte.edu/akoukunt">Back to Main Site</a>
             </div>
             <div class="secondary-navbar">
@@ -24,11 +25,34 @@
             <h1>Abhinav Koukuntla | ITIS 3135</h1>
         </header>
         <main>
-            <h2>Abhinav Koukuntla's Angry Kangaroo | ITIS 3135 Contract</h2>
-            <p>I, Abhianv V. Koukuntla agree to abide by the terms in my Fall 2023 ITIS 3135 91 Web App Design and Development with my instructor, D.I. von Briesen.</p>
-            <p>I understand that all work that I do on my school and personal websites will be publicly available to the world. I will not put information there that is inappropriate for schoolwork, or that I wish to keep private.</p>
-            <p>Signed:</p>
-            <p class="indent">Abhinav V. Koukuntla, 05 September 2023</p>
+            <h2>Abhinav Koukuntla's Angry Kangaroo | ITIS 3135 First Scripts</h2>
+            <h3>Today is <span id="current-time"></span></h3>
+        
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        
+        <label for="mood">How are you feeling:</label>
+        <input type="text" id="mood" placeholder="Enter your mood"><br>
+        
+        <button onclick="greetUser()">Submit</button>
+        
+        <p id="greeting"></p>
+        
+        <label for="favorite-number">Enter your favorite number (0 to 10):</label>
+        <input type="number" id="favorite-number" placeholder="Enter a number"><br>
+        
+        <button onclick="getPolygonName()">Get Polygon Name</button>
+        <p id="polygon-result"></p>
+        
+        <button onclick="saveAKangaroo()">Save an Angry Kangaroo</button>
+        <button onclick="showMeAKangaroo()">Show me a Kangaroo</button>
+        <button onclick="hideTheKangaroo()">Hide the Kangaroo</button>
+        <button onclick="whatIsAKangaroo()">What is a Kangaroo?</button>
+        <button onclick="whatTimeIsItInKangarooLand()">What is the time in Kangaroo land?</button>
+        <div>
+            <img src="images/angrykangaroo.jpg" id="kangaroo-image" width="500px" style="visibility: hidden;">
+        </div>
+    </main>
         </main>
         <footer>
             <div>
