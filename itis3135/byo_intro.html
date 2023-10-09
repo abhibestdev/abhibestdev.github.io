@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/default.css" />
+    <title>Abhinav Koukuntla's Angry Kangaroo</title>
+</head>
+
+<body>
+    <header id="default-header">
+        <h1>Abhinav Koukuntla | ITIS 3135</h1>
+    </header>
+    <main>
+        <h2>Abhinav Koukuntla's Angry Kangaroo | ITIS 3135 BYO Intro</h2>
+        <div id="introContent">
+        <h3>Build Your Own Intro</h3>
+        <form id="introForm" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="mascot">Mascot:</label>
+            <input type="text" id="mascot" name="mascot" required>
+            <label for="image">Image (PNG or JPG):</label>
+            <input type="file" id="image" name="image" accept=".png, .jpg" required>
+            <label for="imageCaption">Image Caption:</label>
+            <input type="text" id="imageCaption" name="imageCaption" required>
+            <label for="personalBackground">Personal Background:</label>
+            <textarea id="personalBackground" name="personalBackground" required></textarea>
+            <label for="professionalBackground">Professional Background:</label>
+            <textarea id="professionalBackground" name="professionalBackground" required></textarea>
+            <label for="academicBackground">Academic Background:</label>
+            <textarea id="academicBackground" name="academicBackground" required></textarea>
+            <label for="webDevelopmentBackground">Background in Web Development:</label>
+            <textarea id="webDevelopmentBackground" name="webDevelopmentBackground" required></textarea>
+            <label for="primaryPlatform">Primary Computer Platform:</label>
+            <input type="text" id="primaryPlatform" name="primaryPlatform" required>
+            <div id="courses">
+                <label>Courses currently taking:</label>
+                <button type="button" id="addCourse">Add Course</button>
+                <div>
+                    <input type="text" name="course[]" required>
+                    <button type="button" class="deleteCourse">Delete</button>
+                </div>
+            </div>
+            <label for="funnyThing">Funny Thing?</label>
+            <input type="text" id="funnyThing" name="funnyThing">
+            <label for="anythingElse">Anything else?</label>
+            <textarea id="anythingElse" name="anythingElse"></textarea>
+            <label>
+                <input type="checkbox" id="agree" name="agree" required> I understand that what is on this page is not password protected, and I will not put anything here that I don’t want publicly available. </label>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        </div>
+    </main>
+    <footer id="default-footer"></footer>
+    <script src="scripts/survey.js"></script>
+    <script src="scripts/defaultscripts.js"></script>
+</body>
+
+</html>
