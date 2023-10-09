@@ -57,7 +57,7 @@ document.getElementById("default-header").innerHTML =
    + "<a href='https://webpages.charlotte.edu/akoukunt'>Back to Main Site</a>"
 + "</div>"
 + "<div class='secondary-navbar'>"
-+    "<a href='balls\Ba11$ 101.htm'>Crappy Webpage</a>"
++    "<a href='balls\\Ba11$ 101.htm'>Crappy Webpage</a>"
 
 //Load footer
 document.getElementById("default-footer").innerHTML = 
