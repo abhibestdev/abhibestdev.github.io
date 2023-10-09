@@ -55,10 +55,12 @@ document.getElementById("default-header").innerHTML =
    + "<a href='website_evaluations.html'>Website Evaluations</a>"
    + "<a href='firstscripts.html'>First Scripts</a>"
    + "<a href='byo_intro.html'>BYO Intro</a>"
+   + "<a href='project_1.html'>Project 1</a>"
    + "<a href='https://webpages.charlotte.edu/akoukunt'>Back to Main Site</a>"
 + "</div>"
 + "<div class='secondary-navbar'>"
-+    "<a href='balls\\Ba11$ 101.htm'>Crappy Webpage</a>"
++    "<a href='balls\\Ba11$ 101.htm'>Crappy Webpage</a>" 
++ "</div>"
 
 //Load footer
 document.getElementById("default-footer").innerHTML = 
