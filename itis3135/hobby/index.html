@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abhinav Koukuntla Valorant</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: white;
+            }
+            table,
+            td,
+            th,
+            tr {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 200px;
+                background-color: #f1f1f1;
+            }
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+            li a.active {
+                background-color: gray;
+                color: white;
+            }
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+            footer {
+                margin-top: 20px;
+                position: relative;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                border: 1px solid black;
+            }
+            footer a {
+                color: black;
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>VALORANT</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#when">Schedule</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="what">
+                <h2>Home</h2>
+                <h3>My hobby is playing a video game called VALORANT</h3>
+                <p>VALORANT is a first person tactical hero shooter created by Riot Games.
+                    Players play as one of a set of agents, characters based on serveral countries
+                    around the world. Players are assigned to either the attacking or defending team
+                    and each team has five players on it.</p>
+                <figure>
+                    <img style="width: 75%;" src="images/agentlineup.jpg" alt="Agents">
+                    <figcaption>All the current VALORANT agents.</figcaption>
+                </figure>
+                <p>The main game mode is a 5v5 bomb defuse game mode. The attackers must plant a
+                    bomb and let it blow up, defenders must prevent the bomb from exploding.</p>
+            </section>
+
+            <section id="who">
+                <h2>About Me</h2>
+                <h3>Why I like VALORANT</h3>
+                <p>I enjoy VALORANT because there are is a lot of strategy involved and each
+                    game involves some amount of critical thinking.</p>
+                <figure>
+                    <img style="width: 35%;" src="images/strategy.png" alt="Strategy">
+                    <figcaption>An example of a VALORANT strategy.</figcaption>
+                </figure>
+                <p>Because there is so many different characters with different abilities and
+                    multiple different maps, VALORANT requires a great amount of strategy. There is
+                    a rank leaderboard within the game and everytime you win, you climb the
+                    leaderboard. I currently sit in the top 10,000 in all of North America.</p>
+            </section>
+
+            <section id="when">
+                <h2>When</h2>
+                <h3>Best time to play VALORANT</h3>
+                <p>The best time to play VALORANT is during the weekends or weekdays after class.</p>
+                <table style="width: 100%;">
+                    <tr>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                    </tr>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td>4:00 PM</td>
+                        <td>6:00 PM</td>
+                        <td>9:00 PM</td>
+                        <td>6:00 PM</td>
+                        <td>4:00 PM</td>
+                        <td>12:00 PM</td>
+                    </tr>
+                </table>
+                <p>Each VALORANT game takes around 45 minutes to complete so I like to make sure
+                    I have a proper amount of time allocated to play. I like to play whenever I am
+                    done with class and after I get my work done.</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Page built by
+                <a
+                    href='https://webpages.charlotte.edu/akoukunt/itis3135/abhinavsangrykangaroo.com/index.html'>Angry Kangaroo</a>
+                © 2023</p>
+            <div id="validation">
+                <a href='https://validator.w3.org/check?uri=referer'>
+                    <img
+                        style='border:0;width:88px;height:31px'
+                        src='https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png'
+                        alt='Valid HTML!'></a>
+                <a href='https://jigsaw.w3.org/css-validator/check/referer'>
+                    <img
+                        style='border:0;width:88px;height:31px'
+                        src='https://jigsaw.w3.org/css-validator/images/vcss'
+                        alt='Valid CSS!'>
+                </div>
+            </footer>
+
+            <script>
+                const navItems = document.querySelectorAll('nav ul li a');
+                const sections = document.querySelectorAll('main section');
+
+                navItems.forEach((item, index) => {
+                    item.addEventListener('click', () => {
+                        sections.forEach((section) => {
+                            section.style.display = 'none';
+                        });
+                        sections[index].style.display = 'block';
+                        item
+                            .classList
+                            .add('active');
+                        navItems.forEach((item1, index) => {
+                            if (item1.classList.contains('active') && item1 != item) {
+                                item1
+                                    .classList
+                                    .remove('active');
+                            }
+                        })
+                    });
+                });
+
+                document
+                    .getElementById('who')
+                    .style
+                    .display = 'none';
+                document
+                    .getElementById('when')
+                    .style
+                    .display = 'none';
+            </script>
+        </body>
+    </html>
