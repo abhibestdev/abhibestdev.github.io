@@ -141,3 +141,17 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #3e6a77;
   }
+  
+  q {
+    font-style: italic;
+  }
+  
+  .block a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .house-container {
+    background-color: #1F363D;
+    margin: 10px;
+  }
