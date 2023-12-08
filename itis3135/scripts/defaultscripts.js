@@ -88,9 +88,10 @@ document
         "tions</a><a href='firstscripts.html'>First Scripts</a><a href='byo_intro.html'>B" +
         "YO Intro</a><a href='project_1.html'>Project 1</a><a href='https://webpages.char" +
         "lotte.edu/akoukunt'>Back to Main Site</a></div><div class='secondary-navbar'><a " +
-        "href='balls\\Ba11$ 101.htm'>Crappy Webpage</a><a href='hobby\\index.html'>Hobby<" +
-        "/a><a href='client\\index.html'>Client Site</a><a href='review1.html'>Review 1</" +
-        "a><a href='review2.html'>Review 2</a></div>"
+        "href='balls\\Ba11$ 101.htm'>Crappy Webpage</a><a href='calculator.html'>Calculat" +
+        "or</a><a href='hobby\\index.html'>Hobby</a><a href='client\\index.html'>Client S" +
+        "ite</a><a href='review1.html'>Review 1</a><a href='review2.html'>Review 2</a><a " +
+        "href='activity14/Activity14.html'>Activity 14</a></div>"
 
 //Load footer
 document

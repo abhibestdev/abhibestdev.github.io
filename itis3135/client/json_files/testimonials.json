@@ -1,0 +1,14 @@
+{
+    "testimonials": [
+        {
+            "quote": "The most professional experience I have ever had",
+            "author": "John Doe"
+        }, {
+            "quote": "The best realator in the game!",
+            "author": "Jane Doe"
+        }, {
+            "quote": "Loved working with him!",
+            "author": "Johnny Appleseed"
+        }
+    ]
+}

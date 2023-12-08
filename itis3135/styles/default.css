@@ -126,3 +126,47 @@ input[type=submit], input[type=reset] {
 a {
     color: black;
 }
+
+#calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 200px;
+  }
+
+  #display {
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  button {
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #333;
+  }
+
+  button.operator {
+    background-color: black;
+    color: #fff;
+  }
+
+  button.double {
+    grid-column: span 2;
+  }
+
+  button.clear,
+  button.equals {
+    background-color: #5bc0de;
+    color: #fff;
+  }
