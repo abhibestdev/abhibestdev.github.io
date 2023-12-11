@@ -7,7 +7,21 @@ function loadHeader() {
             "t</a></li></ul>"
 }
 
+function loadFooter() {
+    document
+        .getElementById("default-footer")
+        .innerHTML = '<div> <p>Page built by <a href="https://webpages.charlotte.edu/akoukunt/itis3135/abhinavsangrykangaroo.com/index.html' +
+            '/">Angry Kangaroo</a> © 2023</p><div id="validation"><a href = "https://validat' +
+            'or.w3.org/check?uri=referer"><img style = "border:0;width:88px;height:31px" src =' +
+            ' "https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" a' +
+            'lt = "Valid HTML!"></a><a href = "https://jigsaw.w3.org/css-validator/check/' +
+            'referer" > <img style = "border:0;width:88px;height:31px" src = "https://jigsaw.' +
+            'w3.org/css-validator/images/vcss" alt = "Valid CSS!" > </a> </div> </div> ';
+
+}
+
 loadHeader();
+loadFooter();
 
 //From w3schools for slide show
 

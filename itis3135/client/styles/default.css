@@ -103,6 +103,15 @@ li a:hover {
     padding: 10px;
 }
 
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 1em;
+}
+
 .block-holder {
     justify-content: center;
     align-items: center;
@@ -164,4 +173,16 @@ q {
 .house-container {
     background-color: #1F363D;
     margin: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #1F363D;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
