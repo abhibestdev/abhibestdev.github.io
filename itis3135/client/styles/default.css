@@ -2,11 +2,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 @media (min-width: 576px) {
-  .regular-header {
-    width: 50%;
-  }
+    .regular-header {
+        width: 50%;
+    }
 }
 
 body {
@@ -64,9 +63,7 @@ li a:hover {
 }
 
 .regular-header {
-    margin: 20%;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin: 20px 20% 0;
     text-align: center;
     color: white;
 }
@@ -180,6 +177,10 @@ footer {
     text-align: center;
     background-color: #1F363D;
     color: white;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
